@@ -11,6 +11,7 @@ from nltk.corpus import stopwords
 import string
 
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 # Load gpt2 tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2', clean_up_tokenization_spaces=False)
